@@ -8,7 +8,7 @@
 		<version>2.7.12</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.codedecode</groupId>
+	<groupId>com.sesame</groupId>
 	<artifactId>foodcatalogue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>FoodCatalogueMicroservice</name>
@@ -16,8 +16,8 @@
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.7</spring-cloud.version>
-		 <sonar.exclusions>**/com/codedecode/foodcatalogue/dto/** , **/com/codedecode/foodcatalogue/mapper/**,
-		 **/*/com/codedecode/foodcatalogue/entity/**/*</sonar.exclusions>
+		 <sonar.exclusions>**/com/sesame/foodcatalogue/dto/** , **/com/sesame/foodcatalogue/mapper/**,
+		 **/*/com/sesame/foodcatalogue/entity/**/*</sonar.exclusions>
 	</properties>
 	<dependencies>
 		<dependency>
